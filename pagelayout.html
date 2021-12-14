@@ -19,7 +19,6 @@
            display: all;
            overflow: scroll;
            align: center;
-           float: center;
       }
     body {
       background-color: tan;
@@ -39,16 +38,23 @@
            height: 200px;
            overflow: scroll;
       }
-      img {
+      img#1 {
         position: relative;
         margin-top: 10px;
         float: right;
       }
-    
+      img#2 {
+        display: inline;
+        position: relative;
+        margin-top: 10px;
+        float: left;
+      }
+     
   </style>
   <body>
     <h1>Changing Page Layout Assignment Example</h1> 
-    <img src="images.jpeg"  alt="images.jpeg">
+    <img id="1"  src="images.jpeg"  alt="Lynnwood HS Logo">
+    <img id="2"  src="unnamed.jpg"  alt="Lynnwood HS Logo">
     
     <h2>Assigment Details:
     <dl>
