@@ -38,6 +38,13 @@
            height: 200px;
            overflow: scroll;
     }
+    .column {
+      float: left;
+    }
+    .row::after {
+      clear: both;
+      display: table;
+    }
      
   </style>
   <body>
@@ -45,7 +52,7 @@
     
 <div class="row">
   <div class="column">
-    <img src="unnamed.jpg"  alt="Lynnwood HS Logo"  style="width: 25%;" style="height: 25%;">
+    <img src="unnamed.jpg"  alt="Lynnwood HS Logo"  style="width: 20%;" style="height: 20%;">
   </div>
   <div class="column">
     <img src="images.jpeg"  alt="Lynnwood HS Logo">
